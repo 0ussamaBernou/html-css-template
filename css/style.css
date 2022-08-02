@@ -10,7 +10,6 @@
 /*******************************************/
 
 /* Box Model Hack */
-
 *,
 *:before,
 *:after {
@@ -33,9 +32,22 @@
   clear: both;
 }
 
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
+/* Container base style */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
 }
 
